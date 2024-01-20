@@ -25,7 +25,7 @@ model = load_model('assinment_3\keras_minist_dense.model',compile=False)
 model.compile(loss='categorical_crossentropy',
               optimizer='sgd',
               metrics=['accuracy'])
-# Path to the folder containing input images
+# Path to the folder containing input imag  es
 input_folder_path = r'assinment_3\split'
 
 # Iterate through images in the folder
